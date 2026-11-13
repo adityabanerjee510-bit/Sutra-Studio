@@ -9,12 +9,12 @@
             <img src="{% static 'logo.png' %}" alt="Logo" style = "height: 60px; margin-right: 10px;">
             Sutra Studio
         </div>
-        <div class="nav-links" style = "display: flex; gap: 20px; font-size: 15px;font-weight:500; border: 3px solid  #ffe1b5;  height: 45px; justify-content: center; align-items: center; padding: 0 10px; border-radius: 20px; ">
+        <div class="nav-links" style = "display: flex; gap: 20px; font-size: 16px;font-weight:500; border: 3px solid  #ffe1b5;  height: 45px; justify-content: center; align-items: center; padding: 0 10px; border-radius: 20px; font-family: 'Lato', sans-serif;">
             <a href="#" style = "text-decoration: none; color: #172D23;">Home</a>
             <a href="#" style = "text-decoration: none; color: #172D23;">Craft</a>
             <a href="#" style = "text-decoration: none; color: #172D23;">Digital</a>
             <a href="#" style = "text-decoration: none; color: #172D23;">Achademy</a>
-            <a href="#" style = "text-decoration: none; color: #172D23;">Our Story</a>
+            <a href="#" style = "text-decoration: none; color: #172D23;">Our-Story</a>
             <a href="#" style = "text-decoration: none; color: #172D23;">Journal</a>
             <a href="#" style = "text-decoration: none; color: #172D23;">Contact</a>
         </div>
@@ -40,6 +40,70 @@
 
             </div>
 
+        </div>
+    </div>
+    <div class="container">
+
+        <!-- Left Content -->
+        <div class="left">
+            <h1>Two Creators.<br>One Vision.</h1>
+
+            <p>
+                Discover authentic Bengali handmade treasures
+                and smart digital solutions — all in one place.
+            </p>
+
+            <div class="hero-buttons"> 
+
+                <a href="#" class="btn-primary">
+                    Explore Our Store →
+                </a>
+
+                <a href="#" class="btn-secondary">
+                    Our Story ⊙
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="right">
+            <img src="{% static 'tra2.png' %}" alt="Sutra Studio Products" style="width: 95%; height: auto; border-radius: 15px;">
+        </div>
+
+    </div>
+{% endblock %}
+{% block categorybar %}
+    <div class="categ" >
+        <div class="categ-item">
+            <span style="display: flex; align-items: center; gap: 5px;">
+                <img src="https://cdn-icons-png.flaticon.com/512/1370/1370295.png" alt="Search" width="40" >
+            </span>
+            <a href="#" style="text-indent: 10px;"> Handmade Crafts</a>
+        </div>
+        <div class="categ-item">
+            <span style="display: flex; align-items: center; gap: 5px;">
+                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/saas-icon-svg-download-png-1389694.png?f=webp" alt="Search" width="50" >
+            </span>
+            <a href="#" style="text-indent: 10px;">SaaS Products</a>
+        </div>
+        <div class="categ-item">
+            <span style="display: flex; align-items: center; gap: 5px;">
+                <img src="https://cdn-icons-png.magnific.com/256/2143/2143657.png?semt=ais_white_label" alt="Search" width="50" >
+            </span>
+            <a href="#" style="text-indent: 10px;">Courses</a>
+        </div>
+        <div class="categ-item">
+            <span style="display: flex; align-items: center; gap: 5px;">
+                <img src="https://img.icons8.com/plasticine/1200/download.jpg" alt="Search" width="50" style="border-radius: 50%;">
+            </span>
+            <a href="#" style="text-indent: 10px;">Digital Downloads</a>
+        </div>
+        <div class="categ-item">
+            <span style="display: flex; align-items: center; gap: 5px;">
+                <img src="https://cdn.pixabay.com/photo/2016/09/14/20/48/birthday-1670415_1280.png" alt="Search" width="50" style="border-radius: 50%;">
+            </span>
+            <a href="#" style="text-indent: 10px;">Gifts & More</a>
         </div>
     </div>
 {% endblock %}

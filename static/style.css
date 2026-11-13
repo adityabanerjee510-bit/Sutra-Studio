@@ -11,7 +11,7 @@ body{
 }
 .header-class {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
 
     background-image: url('/static/background.png');
     background-size: cover;
@@ -20,4 +20,126 @@ body{
 }
 .nav {
     transform: translateY(15px);
+}
+.container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    min-height: 350px;
+
+    padding: 30px 60px;
+    gap: 100px;
+}
+.left {
+    width:70%;
+    flex: 0 0 40%;
+}
+
+.right {
+    width:30%;
+    flex: 0 0 60%;
+}
+.left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    line-height: 1.05;
+    font-weight: 600;
+    color: #172D23;
+}
+.right img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    display: block;
+}
+.left p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #172D23;
+
+    max-width: 500px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #172D23;
+    color: #FFF8EE;
+    border: 1px solid #172D23;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #172D23;
+    border: 1px solid #172D23;
+}
+
+.btn-primary:hover {
+    background-color: #315743;
+}
+
+.btn-secondary:hover {
+    background-color: #FFE1B5;
+}
+
+.categ {
+    width: 96%;
+    min-height: 80px;
+
+    margin: -45px auto 0;
+    padding: 12px;
+
+    background-color: #FFF8EE;
+    border-radius: 20px;
+
+    position: relative;
+    z-index: 8;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid #FFF8EE;
+}
+
+.categ-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 12px;
+
+    border-right: 1px solid #DCCAB5;
+    
+}
+
+.categ-item:last-child {
+    border-right: none;
+}
+
+.categ-item a {
+    text-decoration: none;
+    color: #172D23;
+    font-size: 14px;
+    font-weight: 600;
 }
