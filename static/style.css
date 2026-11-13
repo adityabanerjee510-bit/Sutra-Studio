@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFF8EE;
+    color: #172D23;
+    font-family: 'Lato', sans-serif;
+}
+.header-class {
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url('/static/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav {
+    transform: translateY(15px);
+}
